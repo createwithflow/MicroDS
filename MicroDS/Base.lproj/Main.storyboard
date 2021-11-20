@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qZQ-Oc-NT2">
-                                        <rect key="frame" x="107" y="375.5" width="200" height="145"/>
+                                        <rect key="frame" x="107" y="345.5" width="200" height="205"/>
                                         <subviews>
                                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="sat-pY-YIX" customClass="MicroDSActivityIndicatorView" customModule="MicroDS" customModuleProvider="target">
                                                 <rect key="frame" x="81.5" y="0.0" width="37" height="37"/>
@@ -47,6 +47,14 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="7hS-cW-Hkh"/>
                                                     <constraint firstAttribute="width" constant="120" id="cAK-2K-tdV"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZw-nh-xCC" customClass="MicroDSTapButton" customModule="MicroDS" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="145" width="200" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="c2G-N4-3rf"/>
+                                                    <constraint firstAttribute="width" constant="200" id="d9o-Q8-6eI"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -78,6 +86,12 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="cZw-nh-xCC">
+            <size key="intrinsicContentSize" width="30" height="34"/>
+        </designable>
+        <designable name="iZA-QE-TC5">
+            <size key="intrinsicContentSize" width="30" height="34"/>
+        </designable>
         <designable name="mnU-Gp-fv4">
             <size key="intrinsicContentSize" width="30" height="34"/>
         </designable>

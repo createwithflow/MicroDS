@@ -43,6 +43,10 @@
 		1F18DA342748DA5F00AA6640 /* MicroDSSwitchTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA302748DA5F00AA6640 /* MicroDSSwitchTimeline.swift */; };
 		1F18DA352748DA5F00AA6640 /* MicroDSSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA312748DA5F00AA6640 /* MicroDSSwitchButton.swift */; };
 		1F18DA392748DB0300AA6640 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F18DA382748DB0300AA6640 /* Rubik-Bold.ttf */; };
+		1F18DA3F2748DC0700AA6640 /* MicroDSTapButtonSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA3B2748DC0700AA6640 /* MicroDSTapButtonSceneView.swift */; };
+		1F18DA402748DC0700AA6640 /* MicroDSTapButtonTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA3C2748DC0700AA6640 /* MicroDSTapButtonTimeline.swift */; };
+		1F18DA412748DC0700AA6640 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA3D2748DC0700AA6640 /* TapButton.swift */; };
+		1F18DA422748DC0700AA6640 /* MicroDSTapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA3E2748DC0700AA6640 /* MicroDSTapButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +88,10 @@
 		1F18DA302748DA5F00AA6640 /* MicroDSSwitchTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSSwitchTimeline.swift; sourceTree = "<group>"; };
 		1F18DA312748DA5F00AA6640 /* MicroDSSwitchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSSwitchButton.swift; sourceTree = "<group>"; };
 		1F18DA382748DB0300AA6640 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		1F18DA3B2748DC0700AA6640 /* MicroDSTapButtonSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTapButtonSceneView.swift; sourceTree = "<group>"; };
+		1F18DA3C2748DC0700AA6640 /* MicroDSTapButtonTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTapButtonTimeline.swift; sourceTree = "<group>"; };
+		1F18DA3D2748DC0700AA6640 /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
+		1F18DA3E2748DC0700AA6640 /* MicroDSTapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTapButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,7 @@
 				1F18D9D82748604400AA6640 /* AppDelegate.swift */,
 				1F18D9DA2748604400AA6640 /* SceneDelegate.swift */,
 				1F18D9DC2748604400AA6640 /* ViewController.swift */,
+				1F18DA3A2748DBFD00AA6640 /* TapButton */,
 				1F18DA2E2748DA5400AA6640 /* SwitchButton */,
 				1F18DA252748D93D00AA6640 /* MenuButton */,
 				1F18DA182748D6FC00AA6640 /* ProgressBar */,
@@ -205,6 +214,17 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		1F18DA3A2748DBFD00AA6640 /* TapButton */ = {
+			isa = PBXGroup;
+			children = (
+				1F18DA3E2748DC0700AA6640 /* MicroDSTapButton.swift */,
+				1F18DA3B2748DC0700AA6640 /* MicroDSTapButtonSceneView.swift */,
+				1F18DA3C2748DC0700AA6640 /* MicroDSTapButtonTimeline.swift */,
+				1F18DA3D2748DC0700AA6640 /* TapButton.swift */,
+			);
+			path = TapButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,6 +300,7 @@
 				1F18DA0A2748D50C00AA6640 /* UIView+Extension.swift in Sources */,
 				1F18D9F42748D39E00AA6640 /* SpinnerTimeline.swift in Sources */,
 				1F18DA1C2748D70F00AA6640 /* MicroDSProgressView.swift in Sources */,
+				1F18DA422748DC0700AA6640 /* MicroDSTapButton.swift in Sources */,
 				1F18DA0B2748D50C00AA6640 /* UIImage+Extension.swift in Sources */,
 				1F18DA2A2748D94F00AA6640 /* MicroDSMenuButtonSceneView.swift in Sources */,
 				1F18D9DD2748604400AA6640 /* ViewController.swift in Sources */,
@@ -287,9 +308,11 @@
 				1F18DA0D2748D50C00AA6640 /* CAKeyframeAnimation+Extension.swift in Sources */,
 				1F18DA112748D50C00AA6640 /* Sound.swift in Sources */,
 				1F18DA332748DA5F00AA6640 /* MicroDSSwitchSceneView.swift in Sources */,
+				1F18DA402748DC0700AA6640 /* MicroDSTapButtonTimeline.swift in Sources */,
 				1F18DA172748D5A900AA6640 /* MicroDSActivityIndicatorView.swift in Sources */,
 				1F18DA2D2748D94F00AA6640 /* ToggleButton.swift in Sources */,
 				1F18DA1D2748D70F00AA6640 /* ProgressSimulator.swift in Sources */,
+				1F18DA412748DC0700AA6640 /* TapButton.swift in Sources */,
 				1F18DA2C2748D94F00AA6640 /* MicroDSMenuButtonTimeline.swift in Sources */,
 				1F18DA2B2748D94F00AA6640 /* MicroDSMenuButton.swift in Sources */,
 				1F18D9D92748604400AA6640 /* AppDelegate.swift in Sources */,
@@ -304,6 +327,7 @@
 				1F18D9F12748D39E00AA6640 /* SpinnerView.swift in Sources */,
 				1F18DA0C2748D50C00AA6640 /* Timeline.swift in Sources */,
 				1F18DA092748D50C00AA6640 /* Animation.swift in Sources */,
+				1F18DA3F2748DC0700AA6640 /* MicroDSTapButtonSceneView.swift in Sources */,
 				1F18DA232748D72300AA6640 /* MicroDSProgressBarTimeline.swift in Sources */,
 				1F18DA0E2748D50C00AA6640 /* NSMutableParagraphStyle+Extension.swift in Sources */,
 				1F18DA132748D50C00AA6640 /* NSShadow+Extension.swift in Sources */,
