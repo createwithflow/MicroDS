@@ -47,6 +47,10 @@
 		1F18DA402748DC0700AA6640 /* MicroDSTapButtonTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA3C2748DC0700AA6640 /* MicroDSTapButtonTimeline.swift */; };
 		1F18DA412748DC0700AA6640 /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA3D2748DC0700AA6640 /* TapButton.swift */; };
 		1F18DA422748DC0700AA6640 /* MicroDSTapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA3E2748DC0700AA6640 /* MicroDSTapButton.swift */; };
+		1F18DA482748DD6F00AA6640 /* MicroDSTextFieldTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA442748DD6F00AA6640 /* MicroDSTextFieldTimeline.swift */; };
+		1F18DA492748DD6F00AA6640 /* MicroDSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA452748DD6F00AA6640 /* MicroDSTextField.swift */; };
+		1F18DA4A2748DD6F00AA6640 /* MicroDSTextFieldSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA462748DD6F00AA6640 /* MicroDSTextFieldSceneView.swift */; };
+		1F18DA4B2748DD6F00AA6640 /* Textfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA472748DD6F00AA6640 /* Textfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +96,10 @@
 		1F18DA3C2748DC0700AA6640 /* MicroDSTapButtonTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTapButtonTimeline.swift; sourceTree = "<group>"; };
 		1F18DA3D2748DC0700AA6640 /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
 		1F18DA3E2748DC0700AA6640 /* MicroDSTapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTapButton.swift; sourceTree = "<group>"; };
+		1F18DA442748DD6F00AA6640 /* MicroDSTextFieldTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTextFieldTimeline.swift; sourceTree = "<group>"; };
+		1F18DA452748DD6F00AA6640 /* MicroDSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTextField.swift; sourceTree = "<group>"; };
+		1F18DA462748DD6F00AA6640 /* MicroDSTextFieldSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSTextFieldSceneView.swift; sourceTree = "<group>"; };
+		1F18DA472748DD6F00AA6640 /* Textfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Textfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 				1F18D9D82748604400AA6640 /* AppDelegate.swift */,
 				1F18D9DA2748604400AA6640 /* SceneDelegate.swift */,
 				1F18D9DC2748604400AA6640 /* ViewController.swift */,
+				1F18DA432748DD5C00AA6640 /* TextField */,
 				1F18DA3A2748DBFD00AA6640 /* TapButton */,
 				1F18DA2E2748DA5400AA6640 /* SwitchButton */,
 				1F18DA252748D93D00AA6640 /* MenuButton */,
@@ -225,6 +234,17 @@
 			path = TapButton;
 			sourceTree = "<group>";
 		};
+		1F18DA432748DD5C00AA6640 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				1F18DA452748DD6F00AA6640 /* MicroDSTextField.swift */,
+				1F18DA462748DD6F00AA6640 /* MicroDSTextFieldSceneView.swift */,
+				1F18DA442748DD6F00AA6640 /* MicroDSTextFieldTimeline.swift */,
+				1F18DA472748DD6F00AA6640 /* Textfield.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +320,7 @@
 				1F18DA0A2748D50C00AA6640 /* UIView+Extension.swift in Sources */,
 				1F18D9F42748D39E00AA6640 /* SpinnerTimeline.swift in Sources */,
 				1F18DA1C2748D70F00AA6640 /* MicroDSProgressView.swift in Sources */,
+				1F18DA4B2748DD6F00AA6640 /* Textfield.swift in Sources */,
 				1F18DA422748DC0700AA6640 /* MicroDSTapButton.swift in Sources */,
 				1F18DA0B2748D50C00AA6640 /* UIImage+Extension.swift in Sources */,
 				1F18DA2A2748D94F00AA6640 /* MicroDSMenuButtonSceneView.swift in Sources */,
@@ -308,6 +329,7 @@
 				1F18DA0D2748D50C00AA6640 /* CAKeyframeAnimation+Extension.swift in Sources */,
 				1F18DA112748D50C00AA6640 /* Sound.swift in Sources */,
 				1F18DA332748DA5F00AA6640 /* MicroDSSwitchSceneView.swift in Sources */,
+				1F18DA4A2748DD6F00AA6640 /* MicroDSTextFieldSceneView.swift in Sources */,
 				1F18DA402748DC0700AA6640 /* MicroDSTapButtonTimeline.swift in Sources */,
 				1F18DA172748D5A900AA6640 /* MicroDSActivityIndicatorView.swift in Sources */,
 				1F18DA2D2748D94F00AA6640 /* ToggleButton.swift in Sources */,
@@ -330,8 +352,10 @@
 				1F18DA3F2748DC0700AA6640 /* MicroDSTapButtonSceneView.swift in Sources */,
 				1F18DA232748D72300AA6640 /* MicroDSProgressBarTimeline.swift in Sources */,
 				1F18DA0E2748D50C00AA6640 /* NSMutableParagraphStyle+Extension.swift in Sources */,
+				1F18DA482748DD6F00AA6640 /* MicroDSTextFieldTimeline.swift in Sources */,
 				1F18DA132748D50C00AA6640 /* NSShadow+Extension.swift in Sources */,
 				1F18DA1E2748D70F00AA6640 /* ProgressView.swift in Sources */,
+				1F18DA492748DD6F00AA6640 /* MicroDSTextField.swift in Sources */,
 				1F18D9DB2748604400AA6640 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

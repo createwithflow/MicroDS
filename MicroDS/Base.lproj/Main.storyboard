@@ -21,20 +21,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qZQ-Oc-NT2">
-                                        <rect key="frame" x="107" y="345.5" width="200" height="205"/>
+                                        <rect key="frame" x="87" y="328.5" width="240" height="239"/>
                                         <subviews>
                                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="sat-pY-YIX" customClass="MicroDSActivityIndicatorView" customModule="MicroDS" customModuleProvider="target">
-                                                <rect key="frame" x="81.5" y="0.0" width="37" height="37"/>
+                                                <rect key="frame" x="101.5" y="0.0" width="37" height="37"/>
                                             </activityIndicatorView>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nJs-2x-fQq" customClass="MicroDSProgressView" customModule="MicroDS" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="37" width="200" height="4"/>
+                                                <rect key="frame" x="20" y="37" width="200" height="4"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="4" id="40R-aI-fCZ"/>
                                                     <constraint firstAttribute="width" constant="200" id="OtY-mp-wUR"/>
                                                 </constraints>
                                             </progressView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mnU-Gp-fv4" customClass="MicroDSMenuButton" customModule="MicroDS" customModuleProvider="target">
-                                                <rect key="frame" x="78" y="41" width="44" height="44"/>
+                                                <rect key="frame" x="98" y="41" width="44" height="44"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="9me-lV-Jbq"/>
@@ -42,15 +42,24 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZA-QE-TC5" customClass="MicroDSSwitchButton" customModule="MicroDS" customModuleProvider="target">
-                                                <rect key="frame" x="40" y="85" width="120" height="60"/>
+                                                <rect key="frame" x="60" y="85" width="120" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="7hS-cW-Hkh"/>
                                                     <constraint firstAttribute="width" constant="120" id="cAK-2K-tdV"/>
                                                 </constraints>
                                             </view>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4PS-gJ-9qY" customClass="MicroDSTextField" customModule="MicroDS" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="145" width="240" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="240" id="iUD-Vo-k0f"/>
+                                                    <constraint firstAttribute="height" constant="34" id="vFA-HR-MmU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cZw-nh-xCC" customClass="MicroDSTapButton" customModule="MicroDS" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="145" width="200" height="60"/>
+                                                <rect key="frame" x="20" y="179" width="200" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="c2G-N4-3rf"/>
