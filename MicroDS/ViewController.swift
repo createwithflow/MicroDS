@@ -18,8 +18,9 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var activityIndicator: MicroDSActivityIndicatorView!
     @IBOutlet public weak var progressView: MicroDSProgressView!
-    @IBOutlet weak var label: UILabel!
-    
+    @IBOutlet weak var pullToRefreshLabel: UILabel!
+    @IBOutlet weak var quitAndRelaunchLabel: UILabel!
+
     // MARK: - Properties
     let progressSimulator = ProgressSimulator()
     let refreshControl = MicroDSRefreshControl()
@@ -31,6 +32,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         setupScrollview()
         setupProgressView()
+        setupLabels()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -43,6 +45,11 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         progressView.observedProgress = progressSimulator.progress
     }
     
+    func setupLabels() {
+        pullToRefreshLabel.font = UIFont(name: "Rubik-Bold", size: 10)
+        quitAndRelaunchLabel.font = UIFont(name: "Rubik-SemiBold", size: 10)
+    }
+    
     // MARK: - Refresh / Scrollview
     func setupScrollview() {
         scrollView.refreshControl = refreshControl
@@ -50,8 +57,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.delegate = self
         refreshControl.setup()
         refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
-        
-        label.font = UIFont(name: "Rubik-Bold", size: 10)
     }
     
     //simulate refreshing

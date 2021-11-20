@@ -55,6 +55,12 @@
 		1F18DA522748DE9B00AA6640 /* MicroDSRefreshTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA4E2748DE9B00AA6640 /* MicroDSRefreshTimeline.swift */; };
 		1F18DA532748DE9B00AA6640 /* MicroDSRefreshSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA4F2748DE9B00AA6640 /* MicroDSRefreshSceneView.swift */; };
 		1F18DA542748DE9B00AA6640 /* MicroDSRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA502748DE9B00AA6640 /* MicroDSRefreshControl.swift */; };
+		1F18DA592748F33700AA6640 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F18DA572748F33700AA6640 /* Rubik-Light.ttf */; };
+		1F18DA5A2748F33700AA6640 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F18DA582748F33700AA6640 /* Rubik-SemiBold.ttf */; };
+		1F18DA602748F3A400AA6640 /* MicroDSLaunchViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA5C2748F3A400AA6640 /* MicroDSLaunchViewContainer.swift */; };
+		1F18DA612748F3A400AA6640 /* MicroDSLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA5D2748F3A400AA6640 /* MicroDSLaunchView.swift */; };
+		1F18DA622748F3A400AA6640 /* MicroDSLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA5E2748F3A400AA6640 /* MicroDSLaunchViewController.swift */; };
+		1F18DA632748F3A400AA6640 /* MicroDSLaunchTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA5F2748F3A400AA6640 /* MicroDSLaunchTimeline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +114,12 @@
 		1F18DA4E2748DE9B00AA6640 /* MicroDSRefreshTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSRefreshTimeline.swift; sourceTree = "<group>"; };
 		1F18DA4F2748DE9B00AA6640 /* MicroDSRefreshSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSRefreshSceneView.swift; sourceTree = "<group>"; };
 		1F18DA502748DE9B00AA6640 /* MicroDSRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSRefreshControl.swift; sourceTree = "<group>"; };
+		1F18DA572748F33700AA6640 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		1F18DA582748F33700AA6640 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		1F18DA5C2748F3A400AA6640 /* MicroDSLaunchViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSLaunchViewContainer.swift; sourceTree = "<group>"; };
+		1F18DA5D2748F3A400AA6640 /* MicroDSLaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSLaunchView.swift; sourceTree = "<group>"; };
+		1F18DA5E2748F3A400AA6640 /* MicroDSLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSLaunchViewController.swift; sourceTree = "<group>"; };
+		1F18DA5F2748F3A400AA6640 /* MicroDSLaunchTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSLaunchTimeline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,19 +155,8 @@
 				1F18D9D82748604400AA6640 /* AppDelegate.swift */,
 				1F18D9DA2748604400AA6640 /* SceneDelegate.swift */,
 				1F18D9DC2748604400AA6640 /* ViewController.swift */,
-				1F18DA4C2748DE8E00AA6640 /* RefreshControl */,
-				1F18DA432748DD5C00AA6640 /* TextField */,
-				1F18DA3A2748DBFD00AA6640 /* TapButton */,
-				1F18DA2E2748DA5400AA6640 /* SwitchButton */,
-				1F18DA252748D93D00AA6640 /* MenuButton */,
-				1F18DA182748D6FC00AA6640 /* ProgressBar */,
-				1F18D9F92748D50C00AA6640 /* FlowCommon */,
-				1F18D9EC2748617F00AA6640 /* ActivityIndicator */,
-				1F18D9DE2748604400AA6640 /* Main.storyboard */,
-				1F18DA372748DB0300AA6640 /* Fonts */,
-				1F18D9E12748604400AA6640 /* Assets.xcassets */,
-				1F18D9E32748604400AA6640 /* LaunchScreen.storyboard */,
-				1F18D9E62748604400AA6640 /* Info.plist */,
+				1F18DA562748F32000AA6640 /* Resources */,
+				1F18DA552748F31800AA6640 /* Sources */,
 			);
 			path = MicroDS;
 			sourceTree = "<group>";
@@ -228,6 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				1F18DA382748DB0300AA6640 /* Rubik-Bold.ttf */,
+				1F18DA572748F33700AA6640 /* Rubik-Light.ttf */,
+				1F18DA582748F33700AA6640 /* Rubik-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -263,6 +266,45 @@
 				1F18DA4D2748DE9B00AA6640 /* RefreshControl.swift */,
 			);
 			path = RefreshControl;
+			sourceTree = "<group>";
+		};
+		1F18DA552748F31800AA6640 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F18DA5B2748F3A400AA6640 /* LaunchAnimation */,
+				1F18DA4C2748DE8E00AA6640 /* RefreshControl */,
+				1F18DA432748DD5C00AA6640 /* TextField */,
+				1F18DA3A2748DBFD00AA6640 /* TapButton */,
+				1F18DA2E2748DA5400AA6640 /* SwitchButton */,
+				1F18DA252748D93D00AA6640 /* MenuButton */,
+				1F18DA182748D6FC00AA6640 /* ProgressBar */,
+				1F18D9F92748D50C00AA6640 /* FlowCommon */,
+				1F18D9EC2748617F00AA6640 /* ActivityIndicator */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1F18DA562748F32000AA6640 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F18D9DE2748604400AA6640 /* Main.storyboard */,
+				1F18DA372748DB0300AA6640 /* Fonts */,
+				1F18D9E12748604400AA6640 /* Assets.xcassets */,
+				1F18D9E32748604400AA6640 /* LaunchScreen.storyboard */,
+				1F18D9E62748604400AA6640 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F18DA5B2748F3A400AA6640 /* LaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1F18DA5C2748F3A400AA6640 /* MicroDSLaunchViewContainer.swift */,
+				1F18DA5D2748F3A400AA6640 /* MicroDSLaunchView.swift */,
+				1F18DA5E2748F3A400AA6640 /* MicroDSLaunchViewController.swift */,
+				1F18DA5F2748F3A400AA6640 /* MicroDSLaunchTimeline.swift */,
+			);
+			path = LaunchAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +367,8 @@
 			files = (
 				1F18D9E52748604400AA6640 /* LaunchScreen.storyboard in Resources */,
 				1F18DA392748DB0300AA6640 /* Rubik-Bold.ttf in Resources */,
+				1F18DA592748F33700AA6640 /* Rubik-Light.ttf in Resources */,
+				1F18DA5A2748F33700AA6640 /* Rubik-SemiBold.ttf in Resources */,
 				1F18D9E22748604400AA6640 /* Assets.xcassets in Resources */,
 				1F18D9E02748604400AA6640 /* Main.storyboard in Resources */,
 			);
@@ -342,8 +386,10 @@
 				1F18DA1C2748D70F00AA6640 /* MicroDSProgressView.swift in Sources */,
 				1F18DA4B2748DD6F00AA6640 /* Textfield.swift in Sources */,
 				1F18DA422748DC0700AA6640 /* MicroDSTapButton.swift in Sources */,
+				1F18DA602748F3A400AA6640 /* MicroDSLaunchViewContainer.swift in Sources */,
 				1F18DA0B2748D50C00AA6640 /* UIImage+Extension.swift in Sources */,
 				1F18DA522748DE9B00AA6640 /* MicroDSRefreshTimeline.swift in Sources */,
+				1F18DA622748F3A400AA6640 /* MicroDSLaunchViewController.swift in Sources */,
 				1F18DA2A2748D94F00AA6640 /* MicroDSMenuButtonSceneView.swift in Sources */,
 				1F18D9DD2748604400AA6640 /* ViewController.swift in Sources */,
 				1F18DA082748D50C00AA6640 /* ShapeView.swift in Sources */,
@@ -360,6 +406,7 @@
 				1F18DA2B2748D94F00AA6640 /* MicroDSMenuButton.swift in Sources */,
 				1F18D9D92748604400AA6640 /* AppDelegate.swift in Sources */,
 				1F18DA242748D72300AA6640 /* ProgressBarSceneView.swift in Sources */,
+				1F18DA632748F3A400AA6640 /* MicroDSLaunchTimeline.swift in Sources */,
 				1F18D9F32748D39E00AA6640 /* ActivityIndicatorView.swift in Sources */,
 				1F18DA072748D50C00AA6640 /* CGPath+SVG.swift in Sources */,
 				1F18DA532748DE9B00AA6640 /* MicroDSRefreshSceneView.swift in Sources */,
@@ -367,6 +414,7 @@
 				1F18DA512748DE9B00AA6640 /* RefreshControl.swift in Sources */,
 				1F18DA0F2748D50C00AA6640 /* CATransaction+Extension.swift in Sources */,
 				1F18DA122748D50C00AA6640 /* CAMediaTimingFunction+Extension.swift in Sources */,
+				1F18DA612748F3A400AA6640 /* MicroDSLaunchView.swift in Sources */,
 				1F18DA342748DA5F00AA6640 /* MicroDSSwitchTimeline.swift in Sources */,
 				1F18DA102748D50C00AA6640 /* TextView.swift in Sources */,
 				1F18D9F12748D39E00AA6640 /* SpinnerView.swift in Sources */,
@@ -530,7 +578,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MicroDS/Info.plist;
+				INFOPLIST_FILE = MicroDS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -558,7 +606,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MicroDS/Info.plist;
+				INFOPLIST_FILE = MicroDS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

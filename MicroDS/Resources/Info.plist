@@ -24,6 +24,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Rubik-Bold.ttf</string>
+		<string>Rubik-Light.ttf</string>
+		<string>Rubik-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>
