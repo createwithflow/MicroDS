@@ -21,11 +21,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qZQ-Oc-NT2">
-                                        <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                        <rect key="frame" x="107" y="427.5" width="200" height="41"/>
                                         <subviews>
                                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="sat-pY-YIX" customClass="MicroDSActivityIndicatorView" customModule="MicroDS" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                                                <rect key="frame" x="81.5" y="0.0" width="37" height="37"/>
                                             </activityIndicatorView>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nJs-2x-fQq" customClass="MicroDSProgressView" customModule="MicroDS" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="37" width="200" height="4"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="4" id="40R-aI-fCZ"/>
+                                                    <constraint firstAttribute="width" constant="200" id="OtY-mp-wUR"/>
+                                                </constraints>
+                                            </progressView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -46,6 +53,7 @@
                     </view>
                     <connections>
                         <outlet property="activityIndicator" destination="sat-pY-YIX" id="vCm-gP-lQB"/>
+                        <outlet property="progressView" destination="nJs-2x-fQq" id="h2u-55-qMj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
