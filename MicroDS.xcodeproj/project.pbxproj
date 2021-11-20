@@ -13,6 +13,23 @@
 		1F18D9E02748604400AA6640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F18D9DE2748604400AA6640 /* Main.storyboard */; };
 		1F18D9E22748604400AA6640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F18D9E12748604400AA6640 /* Assets.xcassets */; };
 		1F18D9E52748604400AA6640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F18D9E32748604400AA6640 /* LaunchScreen.storyboard */; };
+		1F18D9F12748D39E00AA6640 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9ED2748D39E00AA6640 /* SpinnerView.swift */; };
+		1F18D9F32748D39E00AA6640 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9EF2748D39E00AA6640 /* ActivityIndicatorView.swift */; };
+		1F18D9F42748D39E00AA6640 /* SpinnerTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9F02748D39E00AA6640 /* SpinnerTimeline.swift */; };
+		1F18DA072748D50C00AA6640 /* CGPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9FA2748D50C00AA6640 /* CGPath+SVG.swift */; };
+		1F18DA082748D50C00AA6640 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9FB2748D50C00AA6640 /* ShapeView.swift */; };
+		1F18DA092748D50C00AA6640 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9FC2748D50C00AA6640 /* Animation.swift */; };
+		1F18DA0A2748D50C00AA6640 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9FD2748D50C00AA6640 /* UIView+Extension.swift */; };
+		1F18DA0B2748D50C00AA6640 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9FE2748D50C00AA6640 /* UIImage+Extension.swift */; };
+		1F18DA0C2748D50C00AA6640 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18D9FF2748D50C00AA6640 /* Timeline.swift */; };
+		1F18DA0D2748D50C00AA6640 /* CAKeyframeAnimation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA002748D50C00AA6640 /* CAKeyframeAnimation+Extension.swift */; };
+		1F18DA0E2748D50C00AA6640 /* NSMutableParagraphStyle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA012748D50C00AA6640 /* NSMutableParagraphStyle+Extension.swift */; };
+		1F18DA0F2748D50C00AA6640 /* CATransaction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA022748D50C00AA6640 /* CATransaction+Extension.swift */; };
+		1F18DA102748D50C00AA6640 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA032748D50C00AA6640 /* TextView.swift */; };
+		1F18DA112748D50C00AA6640 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA042748D50C00AA6640 /* Sound.swift */; };
+		1F18DA122748D50C00AA6640 /* CAMediaTimingFunction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA052748D50C00AA6640 /* CAMediaTimingFunction+Extension.swift */; };
+		1F18DA132748D50C00AA6640 /* NSShadow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA062748D50C00AA6640 /* NSShadow+Extension.swift */; };
+		1F18DA172748D5A900AA6640 /* MicroDSActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F18DA162748D5A900AA6640 /* MicroDSActivityIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,23 @@
 		1F18D9E12748604400AA6640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F18D9E42748604400AA6640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F18D9E62748604400AA6640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F18D9ED2748D39E00AA6640 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		1F18D9EF2748D39E00AA6640 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		1F18D9F02748D39E00AA6640 /* SpinnerTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerTimeline.swift; sourceTree = "<group>"; };
+		1F18D9FA2748D50C00AA6640 /* CGPath+SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPath+SVG.swift"; sourceTree = "<group>"; };
+		1F18D9FB2748D50C00AA6640 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		1F18D9FC2748D50C00AA6640 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		1F18D9FD2748D50C00AA6640 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1F18D9FE2748D50C00AA6640 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1F18D9FF2748D50C00AA6640 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		1F18DA002748D50C00AA6640 /* CAKeyframeAnimation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAKeyframeAnimation+Extension.swift"; sourceTree = "<group>"; };
+		1F18DA012748D50C00AA6640 /* NSMutableParagraphStyle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Extension.swift"; sourceTree = "<group>"; };
+		1F18DA022748D50C00AA6640 /* CATransaction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATransaction+Extension.swift"; sourceTree = "<group>"; };
+		1F18DA032748D50C00AA6640 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		1F18DA042748D50C00AA6640 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		1F18DA052748D50C00AA6640 /* CAMediaTimingFunction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+Extension.swift"; sourceTree = "<group>"; };
+		1F18DA062748D50C00AA6640 /* NSShadow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSShadow+Extension.swift"; sourceTree = "<group>"; };
+		1F18DA162748D5A900AA6640 /* MicroDSActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroDSActivityIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +93,45 @@
 				1F18D9D82748604400AA6640 /* AppDelegate.swift */,
 				1F18D9DA2748604400AA6640 /* SceneDelegate.swift */,
 				1F18D9DC2748604400AA6640 /* ViewController.swift */,
+				1F18D9F92748D50C00AA6640 /* FlowCommon */,
+				1F18D9EC2748617F00AA6640 /* ActivityIndicator */,
 				1F18D9DE2748604400AA6640 /* Main.storyboard */,
 				1F18D9E12748604400AA6640 /* Assets.xcassets */,
 				1F18D9E32748604400AA6640 /* LaunchScreen.storyboard */,
 				1F18D9E62748604400AA6640 /* Info.plist */,
 			);
 			path = MicroDS;
+			sourceTree = "<group>";
+		};
+		1F18D9EC2748617F00AA6640 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				1F18D9EF2748D39E00AA6640 /* ActivityIndicatorView.swift */,
+				1F18DA162748D5A900AA6640 /* MicroDSActivityIndicatorView.swift */,
+				1F18D9F02748D39E00AA6640 /* SpinnerTimeline.swift */,
+				1F18D9ED2748D39E00AA6640 /* SpinnerView.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		1F18D9F92748D50C00AA6640 /* FlowCommon */ = {
+			isa = PBXGroup;
+			children = (
+				1F18D9FA2748D50C00AA6640 /* CGPath+SVG.swift */,
+				1F18D9FB2748D50C00AA6640 /* ShapeView.swift */,
+				1F18D9FC2748D50C00AA6640 /* Animation.swift */,
+				1F18D9FD2748D50C00AA6640 /* UIView+Extension.swift */,
+				1F18D9FE2748D50C00AA6640 /* UIImage+Extension.swift */,
+				1F18D9FF2748D50C00AA6640 /* Timeline.swift */,
+				1F18DA002748D50C00AA6640 /* CAKeyframeAnimation+Extension.swift */,
+				1F18DA012748D50C00AA6640 /* NSMutableParagraphStyle+Extension.swift */,
+				1F18DA022748D50C00AA6640 /* CATransaction+Extension.swift */,
+				1F18DA032748D50C00AA6640 /* TextView.swift */,
+				1F18DA042748D50C00AA6640 /* Sound.swift */,
+				1F18DA052748D50C00AA6640 /* CAMediaTimingFunction+Extension.swift */,
+				1F18DA062748D50C00AA6640 /* NSShadow+Extension.swift */,
+			);
+			path = FlowCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F18DA0A2748D50C00AA6640 /* UIView+Extension.swift in Sources */,
+				1F18D9F42748D39E00AA6640 /* SpinnerTimeline.swift in Sources */,
+				1F18DA0B2748D50C00AA6640 /* UIImage+Extension.swift in Sources */,
 				1F18D9DD2748604400AA6640 /* ViewController.swift in Sources */,
+				1F18DA082748D50C00AA6640 /* ShapeView.swift in Sources */,
+				1F18DA0D2748D50C00AA6640 /* CAKeyframeAnimation+Extension.swift in Sources */,
+				1F18DA112748D50C00AA6640 /* Sound.swift in Sources */,
+				1F18DA172748D5A900AA6640 /* MicroDSActivityIndicatorView.swift in Sources */,
 				1F18D9D92748604400AA6640 /* AppDelegate.swift in Sources */,
+				1F18D9F32748D39E00AA6640 /* ActivityIndicatorView.swift in Sources */,
+				1F18DA072748D50C00AA6640 /* CGPath+SVG.swift in Sources */,
+				1F18DA0F2748D50C00AA6640 /* CATransaction+Extension.swift in Sources */,
+				1F18DA122748D50C00AA6640 /* CAMediaTimingFunction+Extension.swift in Sources */,
+				1F18DA102748D50C00AA6640 /* TextView.swift in Sources */,
+				1F18D9F12748D39E00AA6640 /* SpinnerView.swift in Sources */,
+				1F18DA0C2748D50C00AA6640 /* Timeline.swift in Sources */,
+				1F18DA092748D50C00AA6640 /* Animation.swift in Sources */,
+				1F18DA0E2748D50C00AA6640 /* NSMutableParagraphStyle+Extension.swift in Sources */,
+				1F18DA132748D50C00AA6640 /* NSShadow+Extension.swift in Sources */,
 				1F18D9DB2748604400AA6640 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +380,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +408,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
