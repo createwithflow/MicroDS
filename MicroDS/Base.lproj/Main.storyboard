@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qZQ-Oc-NT2">
-                                        <rect key="frame" x="107" y="405.5" width="200" height="85"/>
+                                        <rect key="frame" x="107" y="375.5" width="200" height="145"/>
                                         <subviews>
                                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="sat-pY-YIX" customClass="MicroDSActivityIndicatorView" customModule="MicroDS" customModuleProvider="target">
                                                 <rect key="frame" x="81.5" y="0.0" width="37" height="37"/>
@@ -39,6 +39,14 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="9me-lV-Jbq"/>
                                                     <constraint firstAttribute="width" constant="44" id="aT4-4R-lHz"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZA-QE-TC5" customClass="MicroDSSwitchButton" customModule="MicroDS" customModuleProvider="target">
+                                                <rect key="frame" x="40" y="85" width="120" height="60"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="7hS-cW-Hkh"/>
+                                                    <constraint firstAttribute="width" constant="120" id="cAK-2K-tdV"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
