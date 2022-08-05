@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIScrollViewDelegate {
+class ViewController: UIViewController, UIScrollViewDelegate, ToggleButtonDelegate {
     // MARK: - Defaults
     struct Defaults {
         static let refreshOffsetThreshold: CGFloat = -150
@@ -20,6 +20,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet public weak var progressView: MicroDSProgressView!
     @IBOutlet weak var pullToRefreshLabel: UILabel!
     @IBOutlet weak var quitAndRelaunchLabel: UILabel!
+    @IBOutlet weak var switchButton: MicroDSSwitchButton!
 
     // MARK: - Properties
     let progressSimulator = ProgressSimulator()
@@ -33,6 +34,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         setupScrollview()
         setupProgressView()
         setupLabels()
+        setupSwitch()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -48,6 +50,11 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     func setupLabels() {
         pullToRefreshLabel.font = UIFont(name: "Rubik-Bold", size: 10)
         quitAndRelaunchLabel.font = UIFont(name: "Rubik-SemiBold", size: 10)
+    }
+
+    // MARK: Switch
+    func setupSwitch() {
+        switchButton.delegate = self
     }
     
     // MARK: - Refresh / Scrollview
@@ -84,5 +91,10 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         handle(offset: scrollView.contentOffset.y)
+    }
+
+    // MARK: Delegate Methods
+    func didToggle(sender: ToggleButton) {
+        print("toggle")
     }
 }
