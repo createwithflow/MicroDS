@@ -164,7 +164,7 @@ open class Animation: NSObject, CAAnimationDelegate {
             return
         }
 
-        layer.speed = 0
+//        layer.speed = 0
 
         if let keyframeAnimation = anim as? CAKeyframeAnimation,
             keyframeAnimations.first?.keyPath == keyframeAnimation.keyPath {
